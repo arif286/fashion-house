@@ -47,12 +47,9 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
 .product-img {
   width: 190px;
   height: 184px;
-}
-.card {
-  background-color: #f5f5f5;
 }
 </style>

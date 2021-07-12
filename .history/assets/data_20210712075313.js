@@ -64,3 +64,21 @@ export const productsData = [
     rating: 5,
   },
 ]
+
+export const allCollection = [
+  {
+    id: 1,
+    title: 'Mens',
+    text: 'Collection'
+ },
+  {
+    id: 2,
+    title: 'Womans',
+    text: 'Collection'
+ },
+  {
+    id: 1,
+    title: 'Accessories',
+    text: 'Collection'
+ },
+]

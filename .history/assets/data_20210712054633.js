@@ -50,14 +50,14 @@ export const productsData = [
     rating: 3,
   },
   {
-    id: 3,
+    id: 1,
     image: 'image2.png',
     title: 'Casual Loafers',
     price: 2599,
     rating: 4,
   },
   {
-    id: 4,
+    id: 1,
     image: 'boot.png',
     title: 'Black Leather Boots',
     price: 3699,

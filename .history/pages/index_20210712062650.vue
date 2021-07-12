@@ -5,7 +5,6 @@
     <Service :services="serviceData" />
     <NewCollection :collections="collections" />
     <Products title="New Arrivals" :products="products" />
-    <DisplayCollection />
   </div>
 </template>
 
@@ -28,6 +27,6 @@ export default {
   font-family: 'Roboto', sans-serif;
 }
 .container {
-  max-width: 1880px;
+  max-width: 1780px;
 }
 </style>

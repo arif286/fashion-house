@@ -4,21 +4,19 @@
       <div class="col-md-6 col-sm-12 col-12">
         <div class="row">
           <div class="col">
-            <div class="men-collection">
+            <div>
               <h3>Mens</h3>
               <p>Collection</p>
             </div>
           </div>
           <div class="col">
-            <div class="women-collection">
-              <h3>Women's</h3>
-              <p>Collection</p>
-            </div>
+            <h3>Women's</h3>
+            <p>Collection</p>
           </div>
         </div>
       </div>
       <div class="col-md-6 col-sm-12 col-12">
-        <div class="accessories">
+        <div>
           <h3>Accessories</h3>
           <p>Collection</p>
         </div>

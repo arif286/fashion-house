@@ -5,18 +5,24 @@
     <Service :services="serviceData" />
     <NewCollection :collections="collections" />
     <Products title="New Arrivals" :products="products" />
-    <DisplayCollection />
+    <DisplayCollection collections="allCollectionData" />
   </div>
 </template>
 
 <script>
-import { serviceData, newCollectionData, productsData } from '@/assets/data.js'
+import {
+  serviceData,
+  newCollectionData,
+  productsData,
+  allCollectionData,
+} from '@/assets/data.js'
 export default {
   data() {
     return {
       serviceData,
       collections: newCollectionData,
       products: productsData,
+      allCollectionData,
     }
   },
 }

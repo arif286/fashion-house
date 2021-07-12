@@ -1,9 +1,6 @@
 <template>
   <div class="container mb-5">
-    <div>
-      <h4>{{ title }}</h4>
-      <p>Views All</p>
-    </div>
+    <h4>{{ title }}</h4>
 
     <div class="row">
       <div
@@ -47,12 +44,9 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
 .product-img {
   width: 190px;
   height: 184px;
-}
-.card {
-  background-color: #f5f5f5;
 }
 </style>

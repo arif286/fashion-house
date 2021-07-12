@@ -4,7 +4,7 @@
       <div
         v-for="service in services"
         :key="service.id"
-        class="col-md-4 col-12 mb-5"
+        class="col-md-4 col-12 mb-4"
       >
         <div class="d-flex justify-content-center">
           <div class="service-box text-center">

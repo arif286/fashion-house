@@ -1,9 +1,6 @@
 <template>
   <div class="container mb-5">
-    <div>
-      <h4>{{ title }}</h4>
-      <p>Views All</p>
-    </div>
+    <h4>{{ title }}</h4>
 
     <div class="row">
       <div
@@ -11,7 +8,7 @@
         :key="item.id"
         class="col-12 col-sm-6 col-md-3 mb-4"
       >
-        <div class="card h-100">
+        <div class="card">
           <div class="card-body">
             <div class="d-flex justify-content-center">
               <img
@@ -47,12 +44,9 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
 .product-img {
   width: 190px;
   height: 184px;
-}
-.card {
-  background-color: #f5f5f5;
 }
 </style>

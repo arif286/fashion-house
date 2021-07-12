@@ -5,7 +5,6 @@
     <Service :services="serviceData" />
     <NewCollection :collections="collections" />
     <Products title="New Arrivals" :products="products" />
-    <DisplayCollection />
   </div>
 </template>
 

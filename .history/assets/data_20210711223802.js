@@ -21,46 +21,15 @@ export const serviceData = [
 
 export const newCollectionData = [
   {
-    id: 2,
-    class: 'newArrival',
+    id: 1,
+    image: 'newarrivals1.png',
     title: 'Black Leather Combo!',
     text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac fermentum eu.',
   },
   {
-    id: 3,
-    class: 'promo',
+    id: 1,
+    image: 'promo.png',
     title: 'Black Leather Combo!',
     text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac fermentum eu.',
   }
-]
-
-export const productsData = [
-  {
-    id: 1,
-    image: 'boot.png',
-    title: 'Black Leather Boots',
-    price: 4499,
-    rating: 4,
-  },
-  {
-    id: 2,
-    image: 'image1.png',
-    title: "Men's Chelsea Boots",
-    price: 3699,
-    rating: 3,
-  },
-  {
-    id: 3,
-    image: 'image2.png',
-    title: 'Casual Loafers',
-    price: 2599,
-    rating: 4,
-  },
-  {
-    id: 4,
-    image: 'boot.png',
-    title: 'Black Leather Boots',
-    price: 3699,
-    rating: 5,
-  },
 ]

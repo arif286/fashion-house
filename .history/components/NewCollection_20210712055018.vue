@@ -7,7 +7,7 @@
         class="col-md-6 col-12 mb-5"
       >
         <div class="card-content" :class="item.class">
-          <div class="card-body product-details">
+          <div class="card-body">
             <h4>{{ item.title }}</h4>
             <p>{{ item.text }}</p>
             <button>View ALL</button>
@@ -40,10 +40,10 @@ export default {
   height: 680px;
   border-radius: 25px;
 }
-.product-details {
+.card-body {
   padding: 70px;
 }
-.product-details button {
+.card-body button {
   border-radius: 30px;
   width: 120px;
   padding: 7px 15px;
@@ -51,11 +51,11 @@ export default {
   color: #333333;
   background: none;
 }
-.product-details h4 {
+.card-body h4 {
   color: #333333;
   font-weight: 700;
 }
-.product-details p {
+.card-body p {
   color: #333333;
 }
 .newArrival h4 {
