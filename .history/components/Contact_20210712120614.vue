@@ -56,7 +56,7 @@
 }
 @media only screen and (min-width: 320px) and (max-width: 560px) {
   .subscribe {
-    width: 280px;
+    width: 250px;
   }
   .contact p {
     width: 290px;
@@ -68,9 +68,6 @@
 }
 @media only screen and (max-width: 320px) {
   .subscribe {
-    width: 100%;
-  }
-  .contact p {
     width: 100%;
   }
 }

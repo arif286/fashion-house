@@ -1,7 +1,7 @@
 <template>
   <div class="container">
-    <div class="contact-bg mt-5 mb-5">
-      <div class="contact pt-5">
+    <div class="contact-bg">
+      <div class="contact mt-5 mb-5">
         <h3>Stay on track</h3>
         <p>
           Sign up to our newsletter to stay up to date with the latest news,
@@ -21,7 +21,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
-  border-radius: 15px;
+  border-radius: 25px;
 }
 .contact {
   margin-left: 50px;
@@ -56,7 +56,7 @@
 }
 @media only screen and (min-width: 320px) and (max-width: 560px) {
   .subscribe {
-    width: 280px;
+    width: 250px;
   }
   .contact p {
     width: 290px;
@@ -64,14 +64,6 @@
   .contact {
     margin-left: 0px;
     padding: 10px;
-  }
-}
-@media only screen and (max-width: 320px) {
-  .subscribe {
-    width: 100%;
-  }
-  .contact p {
-    width: 100%;
   }
 }
 </style>

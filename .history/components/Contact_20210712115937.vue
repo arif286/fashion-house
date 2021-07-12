@@ -1,13 +1,13 @@
 <template>
   <div class="container">
-    <div class="contact-bg mt-5 mb-5">
-      <div class="contact pt-5">
+    <div class="contact-bg">
+      <div class="contact mt-5 mb-5">
         <h3>Stay on track</h3>
         <p>
           Sign up to our newsletter to stay up to date with the latest news,
           products and events from Leatherex.
         </p>
-        <div class="subscribe pb-5">
+        <div class="subscribe">
           <input class="email" type="text" placeholder="Your Email Address" />
           <input class="sub-btn" type="button" value="Subscribe!" />
         </div>
@@ -21,7 +21,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
-  border-radius: 15px;
+  border-radius: 25px;
 }
 .contact {
   margin-left: 50px;
@@ -64,14 +64,6 @@
   .contact {
     margin-left: 0px;
     padding: 10px;
-  }
-}
-@media only screen and (max-width: 320px) {
-  .subscribe {
-    width: 100%;
-  }
-  .contact p {
-    width: 100%;
   }
 }
 </style>
